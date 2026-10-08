@@ -1,0 +1,24 @@
+name: Editing feedback
+description: Framing, comic text, pacing, HUD panels or slowdown suggestions.
+title: "[Editing feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not share private names/chat, your database or recordings without permission. Nothing is attached automatically."
+  - type: input
+    id: version
+    attributes:
+      label: Beta version and game
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Output timestamp and selected style
+      placeholder: 00:07 / Pro comic promo
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What should change and why?
+    validations:
+      required: true
