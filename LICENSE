@@ -1,0 +1,34 @@
+MomentArc Beta Freeware License
+Copyright (c) 2026 MomentArc contributors. All rights reserved.
+
+Permission is granted to install and use the unmodified MomentArc beta executable
+distribution, including for creating monetized gameplay videos, without a fee.
+You may share the original unmodified installer without charging for it, retaining
+this license, documentation and all third-party notices. This grant applies to
+the executable beta distribution, not MomentArc source code. No permission to
+sell, sublicense or incorporate MomentArc code into another product is granted.
+
+Third-party software remains owned by its respective copyright holders and is
+governed exclusively by its own license. Nothing here restricts rights granted
+by those licenses, including copying, modification, redistribution or reverse
+engineering where those licenses permit it. FFmpeg is a separate external tool,
+not MomentArc code, and is not included in this installer. If you choose its
+download during setup, its GPLv3 license and source information accompany it.
+Bundled runtime notices are in THIRD_PARTY_NOTICES and THIRD_PARTY.md.
+
+Microsoft Distributable Code included with the unmodified Windows Python runtime
+may only be redistributed on Microsoft operating systems/runtime platforms.
+Keep its copyright, trademark and patent notices intact; do not imply Microsoft
+endorsement or include that code in malicious, deceptive or unlawful programs.
+These conditions apply only to Microsoft Distributable Code, not Python or
+MomentArc code. Full runtime terms are in THIRD_PARTY_NOTICES/Python-LICENSE.txt.
+
+You retain your rights in your recordings, output videos and local data, subject
+to any rights of the games or other material you use. MomentArc does not claim
+ownership of them. You are responsible for permission to use and publish them.
+
+This is unfinished beta software. Future features, updates, support and fitness
+for any particular purpose are not guaranteed. To the extent permitted by law,
+the software is provided AS IS, without express or implied warranties, and its
+contributors are not liable for claims or damages arising from its use. Nothing
+here excludes rights or liability that applicable law does not allow to be excluded.
