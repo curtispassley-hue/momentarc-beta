@@ -1,0 +1,26 @@
+name: Beta bug report
+description: Help reproduce a problem without automatically sharing private data.
+title: "[Beta bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not upload your database, raw media folder, credentials or private player/chat information. Attachments are voluntary and public."
+  - type: input
+    id: version
+    attributes:
+      label: MomentArc beta and Windows version
+      placeholder: 0.1.0-beta.1 / Windows 11 x64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Game and steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected result and actual result
+    validations:
+      required: true
