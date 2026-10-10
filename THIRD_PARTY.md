@@ -63,6 +63,14 @@ developer tool, not shipped. Publication uses existing credentials in memory, ne
 
 ## Runtime
 
+The YouTube source-preview milestone adds no Python package. HTTPS, OAuth/PKCE, resumable transport
+and process locking use the existing standard library. Windows DPAPI calls the installed OS via
+ctypes; no Windows DLLs are redistributed. Non-Windows credentials are memory-only. Google YouTube
+Data API is an optional configured service, not a bundled SDK/paid AI dependency. See
+[API](https://developers.google.com/youtube/v3) and
+[OAuth](https://developers.google.com/identity/protocols/oauth2/native-app).
+Comic covers reuse external FFmpeg/system fonts within the existing licensing boundaries.
+
 | Dependency | Range / resolved | Purpose | License | Upstream | Redistribution | Linux ARM64 assessment |
 |---|---|---|---|---|---|---|
 | Pydantic | >=2.12,<3 / 2.13.5 | Strict models and JSON Schema | MIT | [Pydantic](https://github.com/pydantic/pydantic) | Preserve MIT notices | Python layer; depends on native core below |
