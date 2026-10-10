@@ -6,7 +6,9 @@ Windows 10/11 x64, still improving with creator feedback.
 ## Download
 
 Open [Releases](https://github.com/curtispassley-hue/momentarc-beta/releases) and
-download **MomentArc-0.1.0-beta.1-windows-x64-setup.exe** from Beta 1.
+download the versioned **MomentArc-…-windows-x64-setup.exe** supplied by that release.
+Existing Beta 1 assets remain unchanged. YouTube features require Beta 2 or later;
+a local candidate build is not automatically a published release.
 Compare its SHA-256 with the accompanying `SHA256SUMS.txt`.
 This is unsigned beta software; Windows may report an unknown publisher.
 Do not disable antivirus or workplace security controls to install it.
@@ -26,6 +28,8 @@ The GPLv3 rendering tools are not inside our installer and retain their own lice
 - Pro comic captions, selective slowdown, measured shake and paired combat framing.
 - Enlarged stats/status/kill-feed panels for standard 16:9 League layouts.
 - Saved video location, observed progress and safe connection recovery.
+- In Beta 2: editable Shorts packages/comic covers and optional, explicitly confirmed YouTube uploads.
+- In Beta 3: local ratings/notes for each exact edit, with preserved correction history.
 
 Choose a gameplay folder, scan, select/preview a clip, then create a Short.
 Finished videos are saved on your PC; **Show saved file** opens their location.
@@ -37,11 +41,14 @@ Gameplay is never uploaded automatically or altered in place. Analyses, versione
 edit decisions and output history stay in your local `.momentarc` workspace.
 There is no telemetry, automatic feedback submission or pooled player database.
 The explicit tool download contacts its provider; clicked feedback links contact GitHub.
+Optional YouTube connection contacts Google; only a confirmed upload sends its finished
+render, approved metadata and optional cover. Private is the default. No OAuth credentials
+are bundled; testers use their own Google setup unless a reviewed shared-client release exists.
 
 The software preserves data needed for future learning. The existing core has
 guarded learning-ledger/preference/performance workflows; it does **not** automatically
 learn from other players or treat an export as an approval/performance outcome.
-Shared learning, analytics sync, publishing, easy feedback controls and model
+Shared learning, analytics sync, other publishing platforms, long-form editing, easy feedback controls and model
 training are future work. Any future shared-data feature needs separate opt-in controls.
 
 ## Help improve the beta
@@ -64,6 +71,8 @@ No game footage, fonts, AI models or optional OCR stack are shipped.
 Updates are manual. Close MomentArc, back up `.momentarc`, then run a newer
 verified installer over the existing install. Uninstall preserves original gameplay,
 saved renders and the local database. Beta features and future improvements are not guaranteed.
+Beta 2 upgrades the database to migration 006; Beta 1 rollback needs your pre-upgrade
+backup. Protect backups and never share client JSON or the encrypted credentials folder.
 
 This repository hosts downloads and feedback only. MomentArc source stays private.
 The beta is proprietary freeware under [LICENSE](LICENSE), not open-source software.
